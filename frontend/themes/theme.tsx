@@ -5,6 +5,8 @@ import type { AppProps } from 'next/app'
 
 export const theme = extendTheme(
   {
+    colors: {},
+    
     fonts: {
       heading: "'Fira CodeVariable', -apple-system, system-ui, sans-serif",
       body: "'Fira CodeVariable', -apple-system, system-ui, sans-serif",
